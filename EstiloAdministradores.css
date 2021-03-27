@@ -1,0 +1,55 @@
+body{
+	background-image: url(SanFrancisco.jpg);
+	background-size: 100vw 100vh;
+	background-attachment: fixed; /*para que la imagen se quede fija*/
+	margin: 0;
+	font-family: monospace; /*colocar fuente a todo el cuerpo*/
+}
+
+.iconoPersonas{
+	font-size: 45px;
+}
+
+.iconoUsuarios{
+	font-size: 45px;
+}
+
+.EstiloCabeceraAdmin h2{
+	color: #000000; /*color*/
+	text-align: center; /*centrar titulo h2*/
+	margin: 0;
+	font-size: 30px; /*tamanio de fuente*/
+	margin-bottom: 20px;
+}
+
+.EstiloAdministradores form{
+	width: 370px; /*ancho*/
+	margin: auto; /*centrado*/
+	background: rgba(241,238,238,1);/*color del formulario red,green,blue,transparencia*/
+	padding: 10px 20px; 	/*Relleno que va a tener el formulario*/
+	/*alto y ancho px*/
+	box-sizing: border-box;
+	border-radius: 10px; /*borde redondeado*/
+	font-size: 15px;
+}
+
+a{
+	font-size: 20px;
+	text-decoration: none;
+	margin: 10px 20px;
+	display: inline-block;
+	background: #3BA7E1;
+	color: #fff;
+	padding: 10px 20px;
+	box-shadow: 0px 5px 0px #1D64A6;
+}
+
+/*Decorado al pasar el mouse por encima*/
+a:hover{
+	box-shadow: 0px 2px 0px #1D64A6;
+}
+
+/*propiedades cuando se cickea el link*/
+a:active{
+	box-shadow: 0px 0px 0px #1D64A6;
+}

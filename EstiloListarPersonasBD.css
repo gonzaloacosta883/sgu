@@ -1,0 +1,50 @@
+
+.TablaPersonas{
+	margin: auto;
+	background-color: #FFFFFF;
+	border: 2px solid;
+	width: 400px;
+	border-spacing: 5px;
+}
+
+.TablaPersonas td{
+	text-align: center;
+	border: 1px solid;
+}
+
+.TablaPersonas tr:hover{
+	background-color: #4198CA;
+}
+
+.TablaPersonas th{
+	background-color: #4198CA;	
+}
+
+body{
+	background-image: url(SanFrancisco.jpg);
+	background-size: 100vw 100vh;
+	background-attachment: fixed; /*para que la imagen se quede fija*/
+	margin: 0;
+	font-family: monospace; /*colocar fuente a todo el cuerpo*/
+}
+
+a{
+	font-size: 20px;
+	text-decoration: none;
+	margin: 10px 20px;
+	display: inline-block;
+	background: #3BA7E1;
+	color: #fff;
+	padding: 10px 20px;
+	box-shadow: 0px 5px 0px #1D64A6;
+}
+
+/*Decorado al pasar el mouse por encima*/
+a:hover{
+	box-shadow: 0px 2px 0px #1D64A6;
+}
+
+/*propiedades cuando se cickea el link*/
+a:active{
+	box-shadow: 0px 0px 0px #1D64A6;
+}

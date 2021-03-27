@@ -1,0 +1,55 @@
+body{
+	background-image: url(SanFrancisco.jpg);
+	background-size: 100vw 100vh;
+	background-attachment: fixed; /*para que la imagen se quede fija*/
+	margin: 0;
+	font-family: monospace; /*colocar fuente a todo el cuerpo*/
+}
+
+/*Codigo estilo de formulario de login*/
+
+.EstiloFormularioLogin{
+	width: 400px; /*ancho*/
+	background: rgba(241,238,238,1);/*color del formulario red,green,blue,transparencia*/
+	padding: 10px 20px; 	/*Relleno que va a tener el formulario*/
+	/*alto y ancho px*/
+	border-radius: 10px; /*borde redondeado*/
+	position: absolute;
+	top: 40%;
+	left: 40%;
+}
+
+.EstiloCabecera{
+	color: #000000; /*color*/
+	text-align: center;
+	margin: 0;
+	font-size: 30px; /*tamanio de fuente*/
+	margin-bottom: 20px;
+}
+
+/*le doy estilo a los input*/
+.EstiloFormularioLogin input{
+	width: 100%; /*ancho*/
+	margin-bottom: 5px;/*margen de botones/separacion*/
+	padding: 7px; /*relleno*/
+	box-sizing: border-box;/*ajustar bordes*/
+	font-size: 15px;/*tamanio de fuente*/
+}
+
+#boton{
+	background: #31384A;
+	color: #ffff;
+	padding: 7px;
+}
+
+/*Permite editar el estilo cuando el cursor este sobre el boton*/
+#boton:hover {
+	background: blue;
+	cursor: pointer; /*pointer pone la manito*/
+}
+
+@media (max-width: 480px){
+	form{
+		width: 100%;
+	}
+}
